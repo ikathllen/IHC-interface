@@ -1,0 +1,6 @@
+.logomarca{
+    width: 220px;
+    height: 130px;
+    background: url("../imagens/logoSite.png") no-repeat 0 0;
+    display: block;
+}
