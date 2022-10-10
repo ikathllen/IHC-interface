@@ -58,3 +58,6 @@ table {
 .menu{
     float: right;
 }
+.menu__li{
+    float: left;
+}
