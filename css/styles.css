@@ -117,23 +117,23 @@ html, body{
     border-radius: 4px;
     display: inline-block;
 }
-#about{
+#objetivos{
     padding-top: 60px;
     background: url(../imagens/artBord.png) center 0 no-repeat ;
-    height: 1000px;
+    height: 750px;
 }
-#about .center{
+#objetivos .center{
     padding-top: 150px;
 }
 .box-ilustracao{
     width: 50%;
     float: left;
 }
-.about-box{
+.objetivos-box{
     width: 50%;
     float: left;
 }
-.about-title{
+.objetivos-title{
     color: #2A3B4D;
     font-size: 44px;
     line-height: 48px;
@@ -175,4 +175,46 @@ html, body{
 }
 .img-responsiva{
 	width: 100%;
+}
+.sobre-title{
+    font-size: 44px;
+    line-height: 48px;
+    color: #2A3B4D;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.sobre-name{
+    font-size: 34px;
+    line-height: 38px;
+    color: #2A3B4D;
+    font-weight: 600;
+    padding-left: 100px;
+}
+.sobre-subtitle{
+    font-size: 18px;
+    line-height: 20px;
+    color: #2A3B4D;
+    padding-left: 100px;
+}
+.sobre-foto{
+    border-radius: 4px;
+    overflow: hidden;
+    width: 300px;
+    height: 400px;
+    float: right;
+    padding-right: 130px;
+}
+.sobre-cargo{
+    font-size: 14px;
+    color: #0B7BEC;
+    font-weight: 600;
+    padding-left: 100px;
+    display: block;
+    margin: 5px 0 20px 0 ;
+}
+.frase{
+    font-style: italic;
+    font-size: 16px;
+    float: right;
 }
