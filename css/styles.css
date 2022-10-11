@@ -85,6 +85,9 @@ html, body{
 .apresentacao__box{
 
 }
+.apresentacao__descricao{
+
+}
 .title-apresentacao{
     color: #2A3B4D;
     font-size: 44px;
@@ -92,4 +95,21 @@ html, body{
 }
 .title-apresentacao strong{
     font-weight: 600;
+}
+.descricao-apresentacao{
+    color: #2A3B4D;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 40px 0 30px 0;
+}
+.bt-blue{
+    background: #0B7BEC;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    display: inline-block;
+
 }
