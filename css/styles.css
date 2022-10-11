@@ -46,6 +46,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+html, body{
+    font-family: 'Poppins', sans-serif;
+}
 .logomarca{
     width: 220px;
     height: 130px;
