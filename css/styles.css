@@ -79,8 +79,8 @@ html, body{
     margin: 0 auto;
 }
 .apresentacao{
-    background: url("../imagens/background.png") center 0;
-    padding: 40px;
+    background: url("../imagens/background.png") no-repeat center 0;
+	padding-top: 40px;
 }
 .apresentacao__descricao{
     width: 550px;
@@ -116,5 +116,27 @@ html, body{
     padding: 15px 30px;
     border-radius: 4px;
     display: inline-block;
-
+}
+#about{
+    padding-top: 60px;
+    background: url(../imagens/artBord.png) center 0 no-repeat ;
+    height: 1000px;
+}
+.box-ilustracao{
+    padding-top: 100px;
+    width: 50%;
+    float: left;
+}
+.about-box{
+    width: 50%;
+    float: left;
+}
+.about-title{
+    color: #2A3B4D;
+    font-size: 44px;
+    line-height: 48px;
+    font-weight: 600;
+    margin-top: 10px 0 20px 0;
+    padding-top: 80px;
+    padding-left: 100px;
 }
