@@ -233,3 +233,73 @@ html, body{
     color: #2A3B4D;
     text-align: center;
 }
+.perguntado{
+    padding-top: 100px;
+}
+.perguntado-box{
+    background: url(../imagens/Graphic.png) 0 0 no-repeat;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.perguntado-wrapper{
+    padding: 150px;
+    text-align: center;
+}
+.perguntado-name{
+    font-size: 22px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-weight: 600;
+    float: left;
+    padding-right: 70px;
+    text-align: left;
+}
+.perguntado-form{
+    border: 1px solid #FFFFFF;
+    width: 380px;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+    text-align: left;
+}
+.perguntado-input{
+    background: none;
+    border: none;
+    color: #FFFFFF;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FFFFFF;
+    opacity: 1; /* Firefox */
+    font-size: 16px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #FFFFFF;
+    font-size: 16px;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.perguntado-submeter{
+    background: url(../imagens/send-email.png) 0 0 no-repeat;
+    width: 34px;
+    height: 34px;
+    border: none;
+}
+.perguntado-position{
+    padding: 15px 100px 15px 10px;
+}
+.perguntado-box-input{
+
+}
+.perguntado-content{
+    display: inline-block;
+}
+.perguntado-box-submeter{
+    position: absolute;
+    right: 15px;
+    top: 7px;
+    border-left: 1px solid #FFFFFF;
+    padding-left: 10px;
+}
