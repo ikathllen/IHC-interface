@@ -82,16 +82,21 @@ html, body{
     background: url("../imagens/background.png") center 0;
     padding: 40px;
 }
-.apresentacao__box{
-
-}
 .apresentacao__descricao{
-
+    width: 550px;
+    height: 400px;
+    float: left;
+    padding-top: 60px;
+}
+.apresentacao__foto img{
+    width: 550px;
+    height: 400px;
+    float: right;
 }
 .title-apresentacao{
     color: #2A3B4D;
-    font-size: 44px;
-    line-height: 48px;
+    font-size: 40px;
+    line-height: 46px;
 }
 .title-apresentacao strong{
     font-weight: 600;
@@ -100,7 +105,7 @@ html, body{
     color: #2A3B4D;
     font-size: 18px;
     line-height: 24px;
-    margin: 40px 0 30px 0;
+    margin: 30px 0 20px 0;
 }
 .bt-blue{
     background: #0B7BEC;
