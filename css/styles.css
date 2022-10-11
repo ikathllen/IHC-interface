@@ -61,3 +61,6 @@ table {
 .menu__li{
     float: left;
 }
+.clear{
+    clear: both;
+}
