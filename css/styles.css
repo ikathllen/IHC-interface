@@ -290,9 +290,6 @@ html, body{
 .perguntado-position{
     padding: 15px 100px 15px 10px;
 }
-.perguntado-box-input{
-
-}
 .perguntado-content{
     display: inline-block;
 }
@@ -302,4 +299,43 @@ html, body{
     top: 7px;
     border-left: 1px solid #FFFFFF;
     padding-left: 10px;
+}
+.footer{
+    padding-top: 50px;
+}
+.footer .center{
+    padding-top: 50px;
+    border-top: 1px solid #F1F6FA;
+}
+.footer-title{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: #2A3B4D;
+    display: block;
+}
+.footer-link{
+    color: #2A3B4D;
+}
+.footer__menu-item{
+    margin-bottom: 15px;
+}
+.footer-box{
+    width: 40%;
+    float: left;
+}
+.footer-menu{
+    width: 20%;
+    float: left;
+}
+.footer__autor{
+	text-align: center;
+	font-size: 14px;
+	color: #2A3B4D;
+	padding: 20px 0;
+}
+
+.footer__autor a{
+	color: #0B7BEC;
 }
