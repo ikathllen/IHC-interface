@@ -5,6 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Metodologia agil</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -102,21 +103,70 @@
                 <div class="clear"></div>
             </div>
         </div>
-        <div class="Sobre">
-            <div class="center">
-                <h2 class="sobre-title">Sobre</h2>
-                <div class="sobre-foto">
-                    <img src="imagens/kat.png" alt="" class="img-responsiva">
-                    <p class="frase">
-                        "Sonhos infinitos!"
-                    </p>
-                    <div class="clear"></div>
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <div class="slide first">
+                    <div class="center">
+                        <h2 class="sobre-title">Sobre 1</h2>
+                        <div class="sobre-foto">
+                            <img src="imagens/kat.png" alt="" class="img-responsiva">
+                            <p class="frase">
+                                "Sonhos infinitos!"
+                            </p>
+                            <div class="clear"></div>
+                        </div>
+                        <br><br>
+                        <h4 class="sobre-name">Fablena Kathllen</h4>
+                        <span class="sobre-cargo">ESTUDANTE, enganharia de computação</span>
+                        <h5 class="sobre-subtitle">Graduanda de engenharia de computação,<br>campus Tucuruí, empreendedora por vocação<br>e programadora por paixão. Atualmente,<br>atuando como desenvolvedora Node.JS. Já<br>estagiou na Compass, empresa essa que<br>possui parceria com a OUL. Para o futuro<br>pretende dedicar-se ao desenvolvimento<br>utilizando Node.JS e, por curiosidade,<br>desenvolver interfaces. </h5>
+                    </div> 
                 </div>
-                <br><br>
-                <h4 class="sobre-name">Fablena Kathllen</h4>
-                <span class="sobre-cargo">ESTUDANTE, enganharia de computação</span>
-                <h5 class="sobre-subtitle">Graduanda de engenharia de computação,<br>campus Tucuruí, empreendedora por vocação<br>e programadora por paixão. Atualmente,<br>atuando como desenvolvedora Node.JS. Já<br>estagiou na Compass, empresa essa que<br>possui parceria com a OUL. Para o futuro<br>pretende dedicar-se ao desenvolvimento<br>utilizando Node.JS e, por curiosidade,<br>desenvolver interfaces. </h5>
-            </div> 
+                <div class="slide">
+                    <div class="center">
+                        <h2 class="sobre-title">Sobre 2</h2>
+                        <div class="sobre-foto">
+                            <img src="imagens/kat.png" alt="" class="img-responsiva">
+                            <p class="frase">
+                                "Sonhos infinitos!"
+                            </p>
+                            <div class="clear"></div>
+                        </div>
+                        <br><br>
+                        <h4 class="sobre-name">Fablena</h4>
+                        <span class="sobre-cargo">ESTUDANTE, enganharia de computação</span>
+                        <h5 class="sobre-subtitle">Graduanda de engenharia de computação,<br>campus Tucuruí, empreendedora por vocação<br>e programadora por paixão. Atualmente,<br>atuando como desenvolvedora Node.JS. Já<br>estagiou na Compass, empresa essa que<br>possui parceria com a OUL. Para o futuro<br>pretende dedicar-se ao desenvolvimento<br>utilizando Node.JS e, por curiosidade,<br>desenvolver interfaces. </h5>
+                    </div> 
+                </div>
+                <div class="slide">
+                    <div class="center">
+                        <h2 class="sobre-title">Sobre 3</h2>
+                        <div class="sobre-foto">
+                            <img src="imagens/kat.png" alt="" class="img-responsiva">
+                            <p class="frase">
+                                "Sonhos infinitos!"
+                            </p>
+                            <div class="clear"></div>
+                        </div>
+                        <br><br>
+                        <h4 class="sobre-name">Kathllen</h4>
+                        <span class="sobre-cargo">ESTUDANTE, enganharia de computação</span>
+                        <h5 class="sobre-subtitle">Graduanda de engenharia de computação,<br>campus Tucuruí, empreendedora por vocação<br>e programadora por paixão. Atualmente,<br>atuando como desenvolvedora Node.JS. Já<br>estagiou na Compass, empresa essa que<br>possui parceria com a OUL. Para o futuro<br>pretende dedicar-se ao desenvolvimento<br>utilizando Node.JS e, por curiosidade,<br>desenvolver interfaces. </h5>
+                    </div> 
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+            </div>
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
         </div>
         <div class="Resultados">
             <div class="center">
@@ -209,6 +259,7 @@
                 <p>Design by <a href="#">@asafSouza</a></p>
             </div>
         </div>
-    </div>   
+    </div> 
+    <script type="text/javascript" src="js/swiper.min.js"></script>  
 </body>
 </html>
