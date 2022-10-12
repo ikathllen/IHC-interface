@@ -71,6 +71,9 @@ html, body{
     font-size: 18px;
     line-height: 20px;
 }
+.menu__link:hover{
+    color:#2A3B4D;
+}
 .clear{
     clear: both;
 }
@@ -116,6 +119,11 @@ html, body{
     padding: 15px 30px;
     border-radius: 4px;
     display: inline-block;
+}
+.bt-blue:hover{
+    color: #0B7BEC;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .3);
 }
 #objetivos{
     padding-top: 60px;
@@ -165,6 +173,11 @@ html, body{
     padding: 10px 30px;
     border-radius: 4px;
     display: inline-block;
+}
+.bt-saibaMais:hover{
+    color: #0B7BEC;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .3);
 }
 .bt-float{
     float: left;
@@ -300,6 +313,12 @@ html, body{
     border-left: 1px solid #FFFFFF;
     padding-left: 10px;
 }
+.footer-logomarca{
+    width: 420px;
+    height: 230px;
+    background: url("../imagens/logo.png") no-repeat 0 0;
+    display: block;
+}
 .footer{
     padding-top: 50px;
 }
@@ -317,7 +336,12 @@ html, body{
 }
 .footer-link{
     color: #2A3B4D;
+    text-decoration: none;
 }
+.footer-link:hover{
+    color:#0B7BEC
+}
+
 .footer__menu-item{
     margin-bottom: 15px;
 }
@@ -333,7 +357,6 @@ html, body{
 	text-align: center;
 	font-size: 14px;
 	color: #2A3B4D;
-	padding: 20px 0;
 }
 
 .footer__autor a{
