@@ -292,6 +292,7 @@ html, body{
     border-radius: 10px;
     cursor: pointer;
     transition: 0.5s;
+    margin-top: 400px;
 }
 .navigation-auto div:not(:last-child){
     margin-right: 30px;
