@@ -191,7 +191,7 @@ html, body{
 	width: 100%;
 }
 .sobre-title{
-    padding-top: 50px;
+    padding-top: 200px;
     font-size: 44px;
     line-height: 48px;
     color: #2A3B4D;
@@ -257,6 +257,7 @@ html, body{
     margin-top: 130px;
     display: flex;
     justify-content: center;
+    margin-top: 330px;
 }
 .manual-btn{
     border: 2px solid #2A3B4D;
@@ -293,7 +294,7 @@ html, body{
     border-radius: 10px;
     cursor: pointer;
     transition: 0.5s;
-    margin-top: 400px;
+    margin-top: 600px;
 }
 .navigation-auto div:not(:last-child){
     margin-right: 30px;
@@ -336,9 +337,7 @@ html, body{
     color: #2A3B4D;
     text-align: center;
 }
-.perguntado{
-    padding-top: 100px;
-}
+
 .perguntado-box{
     background: url(../imagens/Graphic.png) 0 0 no-repeat;
     height: 300px;
