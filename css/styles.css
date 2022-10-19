@@ -151,7 +151,7 @@ html, body{
 .iconOK{
     width: 30px;
     height: 30px;
-    background: url(../imagens/parceiros.png) 0 0 no-repeat;
+    background: url(../imagens/scrm.png) 0 0 no-repeat;
     float: left;
 }
 .item-lista{
@@ -403,15 +403,8 @@ html, body{
     90%{left: -4400px}
     100%{left: -5500px}
 }
-
-.iconScrum{
-    width: 35px;
-    height: 35px;
-    background: url(../imagens/scrm.png) 0 0 no-repeat;
-    float: left;
-}
 .resultado-title{
-    padding-top: 200px;
+    padding-top: 50px;
     font-size: 44px;
     line-height: 48px;
     color: #2A3B4D;
