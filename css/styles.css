@@ -375,6 +375,12 @@ html, body{
 	padding: 50px 50px 0 50px;
     color: #0B7BEC;
 }
+.beneficio-descricao{
+	float: left;
+    font-size: 18px;
+	padding: 30px 10px 0 50px;
+    color: #2A3B4D;
+}
 .Beneficio-carrossel{
     width: 1100px;
     height: 250;
