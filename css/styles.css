@@ -281,6 +281,9 @@ html, body{
 #radio3:checked ~ .first{
     margin-left: -50%;
 }
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
 .navigation-auto{
     position: absolute;
     width: 800px;
@@ -308,6 +311,9 @@ html, body{
 #radio3:checked ~ .navigation-auto .auto-btn3{
     background-color: #0B7BEC;
 }
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #0B7BEC;
+} 
 .beneficio-title{
     padding-top: 50px;
     font-size: 44px;
@@ -368,12 +374,6 @@ html, body{
     font-weight: 300px;
 	padding: 50px 50px 0 50px;
     color: #0B7BEC;
-}
-.beneficio-descricao{
-	float: left;
-    font-size: 18px;
-	padding: 30px 10px 0 50px;
-    color: #2A3B4D;
 }
 .Beneficio-carrossel{
     width: 1100px;
